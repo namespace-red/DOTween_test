@@ -155,8 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 184fe43ca5b432f45b9d858f643447f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 2
   _color: {r: 0.3305062, g: 1, b: 0, a: 1}
-  _duration: 6
 --- !u!135 &302567059
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -275,8 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3183fa1b2d35134bbf07c352485ca09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 2
   _scale: {x: 2, y: 2, z: 2}
-  _duration: 3
 --- !u!136 &529871628
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -399,8 +399,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3183fa1b2d35134bbf07c352485ca09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 2
   _scale: {x: 1.5, y: 1.5, z: 1.5}
-  _duration: 2
 --- !u!114 &552896200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,8 +413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc1a35648c9919540b9cf89853821a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 1
   _degree: {x: 0, y: 0, z: 180}
-  _duration: 1
 --- !u!114 &552896201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,8 +427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018fbf519b03aa449228ae6bd8255b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 2
   _position: {x: 0, y: 5, z: 9}
-  _duration: 4
 --- !u!65 &552896202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -547,8 +547,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac027cf30b9695489eafd2a8a424427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 2
   _text: {fileID: 1108702947}
-  _duration: 3
 --- !u!114 &625175948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -758,8 +758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc1a35648c9919540b9cf89853821a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 1
   _degree: {x: 90, y: 90, z: 0}
-  _duration: 1
 --- !u!65 &818659653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1117,8 +1117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c018fbf519b03aa449228ae6bd8255b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 3
   _position: {x: 5, y: 0, z: 0}
-  _duration: 5
 --- !u!135 &1456046653
 SphereCollider:
   m_ObjectHideFlags: 0

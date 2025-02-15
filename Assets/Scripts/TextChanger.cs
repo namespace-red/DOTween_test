@@ -2,15 +2,17 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 
-public class TextChanger : MonoBehaviour
+public class TextChanger : DoBase
 {
     [SerializeField] private Text _text;
-    [SerializeField] private float _duration;
     
     private void Start()
     {
-        _text.DOText("Заменил", _duration);
-        _text.DOText(", добавил", _duration).SetRelative().SetDelay(_duration);
-        _text.DOText("Расшифрованный текст", _duration, true, ScrambleMode.All).SetDelay(_duration * 2);
+        Sequence mySequence = DOTween.Sequence();
+
+        mySequence.Append(_text.DOText("Заменил", Duration))
+            .Append(_text.DOText(", добавил", Duration).SetRelative())
+            .Append(_text.DOText("Расшифрованный текст", Duration, true, ScrambleMode.All))
+            .SetLoops(-1, LoopType.Restart);
     }
 }

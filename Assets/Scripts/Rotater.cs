@@ -1,13 +1,12 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class Rotater : MonoBehaviour
+public class Rotater : DoBase
 {
     [SerializeField] private Vector3 _degree;
-    [SerializeField] private float _duration;
     
     private void Start()
     {
-        transform.DOLocalRotate(_degree, _duration).SetLoops(-1, LoopType.Incremental);
+        transform.DOLocalRotate(_degree, Duration).SetLoops(-1, LoopType.Incremental);
     }
 }
